@@ -60,9 +60,9 @@ Feature: Validate all the endpoint in scenario outlines  (https://jsonplaceholde
 
     Examples:
       | endpoint              | method | pathParamName |
-      | /users/{userId}       | PUT    | userId        |
-      | /comments/{commentId} | PUT    | commentId     |
-      | /posts/{postId}       | PUT    | postId        |
+      | /users/{userId}       | PATCH    | userId        |
+      | /comments/{commentId} | PATCH    | commentId     |
+      | /posts/{postId}       | PATCH    | postId        |
 
   Scenario Outline: Validate the endpoint "/endpoint/{pathParam}"   deletes an existing resources correctly
 
